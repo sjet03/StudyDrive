@@ -40,7 +40,11 @@
         }
             break;
         case 103:
-        {        }
+        {     
+        UIBarButtonItem *item = [[UIButtonItem alloc]init];
+        item.title = @""
+        [self.navigationController pushViewController:[[SubjectThreeController alloc]init] animated:YES];
+    }
             break;
         case 104:
         {
@@ -58,7 +62,8 @@
         {
                   }
             break;
-        default:
+        default:{
+    }
             break;
     }
 }
